@@ -24,20 +24,6 @@
 #define LCD_DATA_PORT LATA
 #define LCD_TRIS TRISA
 
-#define TRISB0 TRISBbits.TRISB0
-#define TRISB1 TRISBbits.TRISB1
-#define TRISB2 TRISBbits.TRISB2
-#define TRISB3 TRISBbits.TRISB3
-#define TRISB4 TRISBbits.TRISB4
-#define TRISB5 TRISBbits.TRISB5
-#define TRISB6 TRISBbits.TRISB6
-#define TRISB7 TRISBbits.TRISB7
-#define TRISB8 TRISBbits.TRISB8
-#define TRISB9 TRISBbits.TRISB9 // Para dipswitch 1
-#define TRISB10 TRISBbits.TRISB10 // Para dipswitch 2
-#define TRISB11 TRISBbits.TRISB11 // Para dipswitch 3
-#define TRISB12 TRISBbits.TRISB12 // Para dipswitch 4
-
 #define ANSELAbits (*((volatile unsigned char*)(&ANSELAbits)))
 #define ANSELBbits (*((volatile unsigned char*)(&ANSELBbits)))
 
