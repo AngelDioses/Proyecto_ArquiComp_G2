@@ -25,6 +25,11 @@ void Delay1Sec(void);
 void MeasureAndDisplayValues(void);
 float ConvertADCToTemperature(int adc_value);
 void ProcessDipSwitch(int dip_switch_state);
+void ProcessDipSwitch1(void);
+void ProcessDipSwitch2(void);
+void ProcessDipSwitch3(void);
+void ProcessDipSwitch4(void);
+void ProcessNoDipSwitchActivated(void);
 
 
 void Delay1Sec(void) {
