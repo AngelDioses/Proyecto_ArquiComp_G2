@@ -34,6 +34,9 @@ void ProcessNoDipSwitchActivated(void);
 
 void Delay1Sec(void) {
     __delay_ms(1000); 
+    
+    // Alimentar el Watchdog Timer
+    ClrWdt();
 }
 
 int main(void) {
